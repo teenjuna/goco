@@ -1,0 +1,15 @@
+package attr
+
+import (
+	"github.com/teenjuna/goco/internal"
+)
+
+// Renders [Renderer] items into a string.
+func String(nodes ...Renderer) (string, error) {
+	return internal.String(nodes...)
+}
+
+// Same as [String], but panics on error.
+func MustString(nodes ...Renderer) string {
+	return internal.MustString(nodes...)
+}
