@@ -1,4 +1,5 @@
-# goco
+[![GoDoc](https://pkg.go.dev/badge/github.com/teenjuna/goco)](https://pkg.go.dev/github.com/teenjuna/goco)
+[![Go Report Card](https://goreportcard.com/badge/github.com/teenjuna/goco)](https://goreportcard.com/report/github.com/teenjuna/goco)
 
 **Go** package for HTML **co**mponents.
 
